@@ -20,6 +20,13 @@ panda_4 = panda("naruto","thailand","black and yellow","20")
 
 
 print(Panda_1.introduceSelf())
+print(Panda_1.PandaSelfBirth())
+
+print(panda_2.introduceSelf())
 print(panda_2.PandaSelfBirth())
+
 print(panda_3.introduceSelf())
-print(panda_4.PandaSelfBirth())
+print(panda_3.PandaSelfBirth())
+
+print(panda_4.introduceSelf()) 
+print(panda_4.PandaSelfBirth()) 
