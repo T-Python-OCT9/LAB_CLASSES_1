@@ -24,3 +24,15 @@ class Panda:
 panda1 = Panda("brown", "2.70cm", "500kg", "giant panda")
 panda1.panda_look()
 panda1.panda_type()
+
+panda2 = Panda("dark brown", "2.80cm", "550kg", "giant panda")
+panda2.panda_look()
+panda2.panda_type()
+
+panda3 = Panda("white", "3.30cm", "700kg", "giant panda")
+panda3.panda_look()
+panda3.panda_type()
+
+panda4 = Panda("red", "3m", "650kg", "red panda")
+panda4.panda_look()
+panda4.panda_type()
