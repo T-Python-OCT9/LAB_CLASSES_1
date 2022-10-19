@@ -4,7 +4,7 @@ class Panda:
     
     def __init__(self,gender,nationality,national_id,age): # initilizing the class
         # instance attributes
-        self.gnder = gender
+        self.gender = gender
         self.nationality = nationality
         self.nationality_id = national_id
         self.age = age
@@ -16,10 +16,10 @@ class Panda:
         return f'the panda nationality is: {self.nationality}'
 
 # objects 
-first_panda = Panda('x','russia','20002121','11')
-second_panda = Panda('y', 'usa','20002122','12')
-third_panda = Panda('z', 'canda', '22222222', '13')
-fourth_panda = Panda('c', 'saudi', '12121212', '12')
+first_panda = Panda('male','russia','20002121','11')
+second_panda = Panda('female', 'usa','20002122','12')
+third_panda = Panda('male', 'canda', '22222222', '13')
+fourth_panda = Panda('male', 'saudi', '12121212', '12')
 
 print(f'the first panda nationality is :{first_panda.nationality}')  # print 1 attribute value
 
